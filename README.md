@@ -1,4 +1,125 @@
-# bch-defender
-Open-source toolkit and knowledge base for AI agents that explain, promote, and defend Bitcoin Cash.
+# BCH Defender
 
-# BCH Defender is an open-source toolkit and knowledge base for building AI agents that can explain, promote, and defend Bitcoin Cash across social media, forums, chats, and online communities.
+**Open-source toolkit and knowledge base for AI agents that explain, promote, and defend Bitcoin Cash**
+
+BCH Defender is a free and open-source toolkit and knowledge base for building AI agents that understand, explain, promote, and defend Bitcoin Cash across social media, forums, chats, and online communities.
+
+The goal of this repository is to serve as a shared foundation for BCH-focused agents, bots, assistants, and automated workflows, including setups built with tools like OpenClaw and similar systems.
+
+## Purpose
+
+BCH Defender exists to make it easier to build agents that can:
+
+- answer common questions about Bitcoin Cash
+- explain BCH clearly to new users
+- respond to criticism and objections
+- correct misinformation with accurate arguments
+- generate platform-appropriate replies for social media
+- help advocates, communities, and builders communicate BCH more effectively
+
+## What this repository is
+
+This repository is intended to become a practical source of truth for Bitcoin Cash agents.
+
+It can include:
+
+- structured BCH knowledge
+- FAQs
+- objections and responses
+- prompts for AI agents
+- platform-specific response playbooks
+- example replies
+- evaluation sets
+- integrations with agent frameworks and workflows
+
+## Who this is for
+
+BCH Defender is for:
+
+- developers building BCH agents or bots
+- community organizers
+- advocates and educators
+- social media operators
+- anyone who wants reusable building blocks for BCH-focused AI systems
+
+## Possible Use Cases
+
+- X / Twitter reply assistant
+- Reddit response assistant
+- Telegram or Discord helper bot
+- FAQ agent for BCH communities
+- objection-handling assistant
+- educational content drafting assistant
+- OpenClaw-compatible BCH agent setups
+- reusable knowledge base for multi-agent workflows
+
+## Principles
+
+The project should aim to be:
+
+- free and open-source
+- accurate and evidence-based
+- clear and understandable
+- reusable across tools and frameworks
+- useful for real BCH advocacy and education
+
+## Repository Structure
+
+Suggested structure:
+
+- `knowledge/` → BCH facts, concepts, comparisons, and reference material
+- `faqs/` → common BCH questions and answers
+- `objections/` → common criticisms and strong responses
+- `prompts/` → prompts and behavioral guidance for agents
+- `playbooks/` → how agents should respond on different platforms
+- `examples/` → example replies, threads, and response patterns
+- `evaluations/` → tests and benchmarks for agent quality
+- `integrations/` → OpenClaw and other framework-specific implementations
+- `docs/` → architecture, vision, and contributor documentation
+
+## Design Goal
+
+The long-term goal is to create an open repository that acts as a shared foundation for Bitcoin Cash agents.
+
+Not just one bot, but an ecosystem of reusable BCH agent components:
+- knowledge
+- prompts
+- examples
+- playbooks
+- integrations
+- evaluation methods
+
+## Contributing
+
+Contributions are welcome.
+
+Useful contributions include:
+
+- improving documentation
+- adding FAQs
+- writing objection-handling material
+- improving prompts
+- adding sample replies
+- building integrations
+- creating evaluation cases
+- organizing BCH knowledge into agent-friendly formats
+
+Please keep contributions factual, clear, and useful.
+
+## Early Direction
+
+In its first stage, BCH Defender should focus on:
+
+1. defining a clear BCH knowledge base
+2. collecting common questions and objections
+3. creating strong example replies
+4. writing reusable prompts for agents
+5. supporting OpenClaw and similar agent workflows
+
+## License
+
+This project is free software. See the `LICENSE` file for details.
+
+## Tagline
+
+**The open-source knowledge base for Bitcoin Cash agents.**
