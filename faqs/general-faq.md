@@ -54,7 +54,7 @@ In BCH discussions, scalability is treated as essential, because a cash system m
 
 BCH supporters argue that decentralization is not just about node counts or slogans, but about whether the system can resist capture and remain usable by its community.
 
-BCH places strong emphasis on decentralized development, open participation, and preserving its monetary use case without handing too much power to a small group.
+BCH places strong emphasis on decentralized development, open participation, and multiple independent teams and implementations rather than a single controlling organization.
 
 ## Does BCH have a roadmap?
 
@@ -62,11 +62,19 @@ BCH does not revolve around a single central authority deciding everything. Deve
 
 The general direction remains focused on better usability, scaling, and preserving BCH as practical peer-to-peer cash.
 
+## What is BCH's supply model?
+
+BCH has a fixed maximum supply of 21 million coins, similar to BTC. Some users view this as part of BCH's long-term savings thesis, while still using BCH as spendable money in everyday transactions.
+
 ## What about privacy?
 
 BCH is not perfect privacy by default, but privacy tools and best practices exist. Users who care about privacy should learn wallet hygiene, address management, and available privacy-enhancing tools.
 
-Privacy on BCH is better understood as something users should actively improve through good practices, not something to assume automatically.
+Compared with traditional card and banking rails, BCH payments can reduce how much personal information must be shared with payment processors, but users should not assume automatic anonymity.
+
+## Does BCH support tokens?
+
+Yes. BCH includes native token functionality through CashTokens (activated in 2023), which enables tokenized assets and advanced on-chain applications while keeping BCH payments on the same network.
 
 ## What are good BCH wallets?
 
@@ -89,6 +97,8 @@ Many BCH supporters consider earning BCH directly one of the best onboarding pat
 
 BCH can be spent wherever merchants, individuals, or communities accept it. In some places, BCH communities have worked to build local merchant networks and circular economies where BCH is used more directly.
 
+Because BCH is permissionless and global, users can send funds across borders without asking a bank for access.
+
 ## How are goods and services priced in BCH?
 
 There is no single rule. Some merchants price in local fiat and convert at the moment of sale. Others price directly in BCH.
@@ -100,6 +110,16 @@ Both approaches can work. In early stages of adoption, fiat reference pricing is
 Because useful money needs to be spendable. People spend money when it solves real problems, makes payments easier, avoids friction, or helps support a parallel economy.
 
 Spending BCH is not a contradiction. A money that is never used as money loses an important part of its purpose.
+
+## Why was Bitcoin Cash created?
+
+Bitcoin Cash split from Bitcoin in August 2017 as a continuation of the "peer-to-peer electronic cash" use case. Supporters believed typical users needed affordable on-chain payments, and that high base-layer fees would weaken everyday utility.
+
+## What are some notable BCH technical milestones?
+
+Two commonly cited milestones are:
+- CashTokens activation in 2023, adding native token capabilities
+- ABLA-related scaling work in 2024, aimed at improving adaptive block-size behavior
 
 ## How can I help Bitcoin Cash?
 
