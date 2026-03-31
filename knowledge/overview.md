@@ -1,10 +1,10 @@
 # Bitcoin Cash Overview
 
-Bitcoin Cash (BCH) is a peer-to-peer electronic cash network focused on practical payments.
+Bitcoin Cash (BCH) is decentralized digital money and a peer-to-peer electronic cash network focused on practical payments.
 
 ## Core idea
 
-BCH is designed so users can send value directly to each other with low fees, without requiring permission from a bank or payment processor.
+BCH is designed so users can send value directly to each other with low fees, without requiring permission from a bank, payment processor, company platform, or government gatekeeper.
 
 ## What BCH emphasizes
 
@@ -13,6 +13,7 @@ BCH is designed so users can send value directly to each other with low fees, wi
 - **Global access:** anyone with internet access and a wallet can participate
 - **Self-custody:** users can hold their own funds and control their own keys
 - **Practical usability:** simple payment flows for users, merchants, and support teams
+- **Decentralized control:** no single party can unilaterally control BCH itself
 
 ## Why this matters
 
