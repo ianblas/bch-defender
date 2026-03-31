@@ -7,6 +7,14 @@
 3. Set confirmation policy by transaction size.
 4. Set treasury policy: hold BCH, convert to fiat, or mixed.
 
+## Why merchants accept BCH
+
+- **Low fees:** helps protect margin, including on smaller purchases.
+- **No default processor lock-in:** direct wallet acceptance is possible.
+- **Global reach:** customers can pay from anywhere BCH is used.
+- **Fast digital payments:** practical for in-person and online checkout.
+- **Direct control:** businesses can receive and hold funds without mandatory intermediaries.
+
 ## Payment flow basics
 
 - Staff enters sale amount.
@@ -20,6 +28,8 @@ Train staff to:
 - identify valid BCH payment completion
 - handle address/QR errors calmly
 - follow escalation steps for failed or delayed payments
+- explain to customers that BCH is digital cash, not store credit
+- avoid reusing old QR codes tied to previous amounts
 
 ## Refund workflow
 
@@ -34,3 +44,9 @@ Train staff to:
 - Test payment flow before going live.
 - Keep a quick internal checklist for shift staff.
 - Reconcile BCH sales in accounting records regularly.
+
+## Merchant discovery and growth
+
+- List your business on BCH merchant maps so customers can find you.
+- Coordinate with local BCH communities for onboarding events and promotions.
+- Encourage first-time BCH customers with simple checkout guidance.

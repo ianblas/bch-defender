@@ -1,5 +1,12 @@
 # User Support Guide
 
+## BCH vs wallet apps
+
+- **BCH** is the currency (Bitcoin Cash).
+- **A wallet app** is software or hardware used to send, receive, and secure BCH.
+- Wallet providers do not control the BCH network itself.
+- If users hold their own keys/seed phrase, they control their funds directly.
+
 ## Sending BCH
 
 1. Confirm the recipient address and network (BCH).
@@ -31,6 +38,14 @@
 - Losing seed phrase backup
 - Trusting fake support contacts
 - Reusing old addresses when privacy matters
+- Assuming the wallet app company controls BCH itself
+- Misunderstanding custodial service vs self-custody wallet
+
+## Why backup and recovery matter
+
+- Your seed phrase/private key recovery is what restores access if a phone is lost, stolen, reset, or damaged.
+- Without recovery data, lost device access can mean permanently lost BCH.
+- Recovery capability is a core part of self-custody.
 
 ## Basic safety
 
@@ -38,3 +53,11 @@
 - Enable device security and wallet PIN/biometric lock
 - Keep software updated
 - Never share seed phrase or private keys
+- Keep recovery backups away from cloud notes and screenshots when possible
+- Store backup information in secure physical locations
+
+## Support tone for beginners
+
+- Start with small test transactions.
+- Encourage users to verify details before each send.
+- Explain mistakes without blame and focus on recovery steps.
