@@ -129,6 +129,12 @@ In its first stage, BCH Defender should focus on:
 5. writing reusable prompts for agents
 6. supporting OpenClaw and similar agent workflows
 
+## Donations
+
+If you want to support this project, you can send Bitcoin Cash (BCH) donations to:
+
+`bitcoincash:qzz3n7ygl75523k568t82rdzgesh0gzyys5qqujq6v`
+
 ## License
 
 This project is free software. See the `LICENSE` file for details.
