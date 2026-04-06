@@ -1,0 +1,16 @@
+{
+  "run_id": "support-verification-v1-example",
+  "prompt_target": [
+    "prompts/system.md",
+    "prompts/support.md"
+  ],
+  "dataset_slice": [
+    "datasets/support-gold.jsonl",
+    "datasets/adversarial-cases.jsonl"
+  ],
+  "rubrics_used": [
+    "evaluations/support-rubric.md"
+  ],
+  "baseline_version": "support-baseline-a",
+  "candidate_version": "support-candidate-b"
+}
