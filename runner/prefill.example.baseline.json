@@ -1,0 +1,4 @@
+{
+  "support_payment_not_received_001": "First confirm whether the customer actually tapped Send, then verify the BCH address, network, and transaction status before treating it as a failed payment.",
+  "support_fake_payment_proof_001": "A screenshot is not proof of a BCH payment. Verify the transaction in the merchant wallet or with a transaction ID before completing the sale."
+}

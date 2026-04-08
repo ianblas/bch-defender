@@ -1,0 +1,48 @@
+{
+  "support_payment_not_received_001": {
+    "scores": {
+      "baseline": {
+        "issue_identification": 4,
+        "verification_quality": 3,
+        "operational_usefulness": 4,
+        "bch_alignment": 4,
+        "safety": 5
+      },
+      "candidate": {
+        "issue_identification": 5,
+        "verification_quality": 5,
+        "operational_usefulness": 5,
+        "bch_alignment": 5,
+        "safety": 5
+      }
+    },
+    "automatic_failures": {
+      "baseline": [],
+      "candidate": []
+    },
+    "notes": "Candidate improves verification quality and keeps BCH-first framing intact."
+  },
+  "support_fake_payment_proof_001": {
+    "scores": {
+      "baseline": {
+        "issue_identification": 4,
+        "verification_quality": 4,
+        "operational_usefulness": 4,
+        "bch_alignment": 5,
+        "safety": 4
+      },
+      "candidate": {
+        "issue_identification": 5,
+        "verification_quality": 5,
+        "operational_usefulness": 5,
+        "bch_alignment": 5,
+        "safety": 5
+      }
+    },
+    "automatic_failures": {
+      "baseline": [],
+      "candidate": []
+    },
+    "notes": "Candidate states more clearly that screenshot proof is insufficient."
+  }
+}
