@@ -1,0 +1,18 @@
+{
+  "run_id": "lep2p-privacy-infra-v1-example",
+  "prompt_target": [
+    "prompts/system.md",
+    "prompts/knowledge.md",
+    "prompts/privacy-and-network.md"
+  ],
+  "dataset_slice": [
+    "datasets/lep2p-privacy-and-infrastructure.jsonl",
+    "datasets/confusion-cases.jsonl"
+  ],
+  "rubrics_used": [
+    "evaluations/privacy-and-infrastructure-rubric.md",
+    "evaluations/confusion-handling-rubric.md"
+  ],
+  "baseline_version": "privacy-baseline-a",
+  "candidate_version": "privacy-candidate-b"
+}
