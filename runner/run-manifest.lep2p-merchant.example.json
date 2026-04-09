@@ -1,0 +1,18 @@
+{
+  "run_id": "lep2p-merchant-ops-v1-example",
+  "prompt_target": [
+    "prompts/system.md",
+    "prompts/merchant.md",
+    "prompts/merchant-operations.md"
+  ],
+  "dataset_slice": [
+    "datasets/merchant-specific-cases.jsonl",
+    "datasets/lep2p-merchant-and-adoption.jsonl"
+  ],
+  "rubrics_used": [
+    "evaluations/merchant-policy-rubric.md",
+    "evaluations/merchant-operations-rubric.md"
+  ],
+  "baseline_version": "merchant-baseline-a",
+  "candidate_version": "merchant-candidate-b"
+}
