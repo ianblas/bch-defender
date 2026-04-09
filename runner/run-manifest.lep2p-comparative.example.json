@@ -1,0 +1,19 @@
+{
+  "run_id": "lep2p-comparative-v1-example",
+  "prompt_target": [
+    "prompts/system.md",
+    "prompts/objections.md",
+    "prompts/comparative-objections.md"
+  ],
+  "dataset_slice": [
+    "datasets/objections-gold.jsonl",
+    "datasets/lep2p-comparative-objections.jsonl",
+    "datasets/multi-turn-cases.jsonl"
+  ],
+  "rubrics_used": [
+    "evaluations/objections-rubric.md",
+    "evaluations/multi-turn-rubric.md"
+  ],
+  "baseline_version": "comparative-baseline-a",
+  "candidate_version": "comparative-candidate-b"
+}
