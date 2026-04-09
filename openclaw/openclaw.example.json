@@ -1,0 +1,55 @@
+{
+  "workspace_root": ".",
+  "skills_dir": "skills",
+  "default_profile": "bch_merchant_ops",
+  "profiles": {
+    "bch_merchant_ops": {
+      "description": "Merchant setup, POS, xPub, refund-role, multisig context",
+      "prompt_stack": [
+        "prompts/system.md",
+        "prompts/merchant.md",
+        "prompts/merchant-operations.md"
+      ],
+      "skills": [
+        "bch_merchant_ops"
+      ],
+      "tool_policy": "read_only_first"
+    },
+    "bch_comparative_objections": {
+      "description": "BTC, Nano, Monero, stablecoin, CBDC, PoS comparisons",
+      "prompt_stack": [
+        "prompts/system.md",
+        "prompts/objections.md",
+        "prompts/comparative-objections.md"
+      ],
+      "skills": [
+        "bch_comparative_objections"
+      ],
+      "tool_policy": "read_only_first"
+    },
+    "bch_privacy_network": {
+      "description": "CashFusion, Tor, I2P, IPFS, privacy and resilience",
+      "prompt_stack": [
+        "prompts/system.md",
+        "prompts/knowledge.md",
+        "prompts/privacy-and-network.md"
+      ],
+      "skills": [
+        "bch_privacy_network"
+      ],
+      "tool_policy": "read_only_first"
+    },
+    "bch_record_anchoring": {
+      "description": "OP_RETURN, hashes, timestamps, record anchoring",
+      "prompt_stack": [
+        "prompts/system.md",
+        "prompts/knowledge.md",
+        "prompts/record-anchoring.md"
+      ],
+      "skills": [
+        "bch_record_anchoring"
+      ],
+      "tool_policy": "read_only_first"
+    }
+  }
+}
