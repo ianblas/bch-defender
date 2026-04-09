@@ -1,0 +1,5 @@
+{
+  "support_payment_not_received_001": "First confirm whether the customer actually tapped Send. Then verify the BCH address, the intended network, and the transaction status before treating the payment as missing. If available, ask for the transaction ID.",
+  "support_fake_payment_proof_001": "A screenshot is not proof of a BCH payment. Before completing the sale, verify the transaction in the merchant wallet or with a transaction ID and on-chain visibility.",
+  "support_exchange_checkout_001": "If the customer is paying from an exchange, do not assume the delay comes from BCH. Ask whether there is a transaction ID yet and distinguish exchange withdrawal delay from a normal BCH wallet-to-wallet payment."
+}
