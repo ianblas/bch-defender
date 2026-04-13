@@ -32,9 +32,10 @@ It can include:
 - prompts for AI agents
 - platform-specific response playbooks
 - merchant support flows
-- example replies
-- evaluation sets
-- integrations with agent frameworks and workflows
+- example replies and conversations
+- evaluation sets and rubrics
+- runner and iteration workflows
+- OpenClaw-oriented skills and runtime docs
 
 ## Who this is for
 
@@ -60,6 +61,7 @@ BCH Defender is for:
 - user support bot for BCH onboarding and usage
 - OpenClaw-compatible BCH agent setups
 - reusable knowledge base for multi-agent workflows
+- evaluation and regression-testing workflows for BCH agents
 
 ## Principles
 
@@ -72,33 +74,70 @@ The project should aim to be:
 - reusable across tools and frameworks
 - practical for real BCH education, adoption, and merchant use
 
-## Repository Structure
-
-Suggested structure:
+## Current Repository Structure
 
 - `knowledge/` → BCH facts, concepts, comparisons, and reference material
-- `faqs/` → common BCH questions and answers
+- `faq/` → common BCH questions and reusable answers
 - `objections/` → common criticisms and strong responses
 - `support/` → user and merchant support knowledge
 - `prompts/` → prompts and behavioral guidance for agents
-- `playbooks/` → how agents should respond on different platforms or in support contexts
-- `examples/` → example replies, threads, and response patterns
-- `evaluations/` → tests and benchmarks for agent quality
-- `integrations/` → OpenClaw and other framework-specific implementations
-- `docs/` → architecture, vision, and contributor documentation
+- `playbooks/` → structured guidance for support, onboarding, merchant use, and platform behavior
+- `examples/` → example replies, conversations, and response patterns
+- `datasets/` → evaluation cases, gold examples, adversarial cases, and LEP2P-derived datasets
+- `evaluations/` → scoring rubrics, bad-answer detection, and evaluation logic
+- `routing/` → route and subroute logic for agent behavior
+- `runner/` → local evaluation-run helpers, manifests, and scoring utilities
+- `iteration/` → prompt/eval iteration workflow and slice guidance
+- `openclaw/` → OpenClaw bootstrap, runtime mapping, tool policy, and live-config docs
+- `skills/` → OpenClaw workspace skills for BCH Defender
+- `lep2p/` → consolidation docs for LEP2P-derived expansions
+
+## OpenClaw and Runtime Direction
+
+BCH Defender now includes an initial OpenClaw-oriented runtime layer, including:
+
+- workspace bootstrap docs
+- focused agent profiles
+- session model guidance
+- runtime routing and skill mapping
+- tool-policy and approval guidance
+- runner bridge and first live config examples
+- initial workspace skills for:
+  - merchant operations
+  - comparative objections
+  - privacy and network topics
+  - record anchoring
+
+This keeps BCH Defender useful both as a knowledge base and as a foundation for concrete runtime experimentation.
+
+## LEP2P-Derived Expansion
+
+The repo also includes a grounded expansion derived from LEP2P episode material.
+
+That work strengthened:
+
+- merchant onboarding and operations
+- comparative objections
+- privacy and network-access explanations
+- record anchoring and notary-style use cases
+- datasets, playbooks, FAQs, examples, prompts, routing, evaluations, and runner slices
+
+See the `lep2p/` directory for a consolidated map of that material.
 
 ## Design Goal
 
 The long-term goal is to create an open repository that acts as a shared foundation for Bitcoin Cash agents.
 
 Not just one bot, but an ecosystem of reusable BCH agent components:
+
 - knowledge
 - prompts
 - examples
 - playbooks
 - support flows
-- integrations
+- runtime skills
 - evaluation methods
+- integration patterns
 
 ## Contributing
 
@@ -111,23 +150,23 @@ Useful contributions include:
 - writing objection-handling material
 - adding support material for users and merchants
 - improving prompts
-- adding sample replies
-- building integrations
-- creating evaluation cases
+- adding sample replies and conversations
+- expanding datasets and evaluation rubrics
+- improving runtime and skill integration
 - organizing BCH knowledge into agent-friendly formats
 
 Please keep contributions factual, clear, and useful.
 
 ## Early Direction
 
-In its first stage, BCH Defender should focus on:
+In its current stage, BCH Defender is focused on:
 
-1. defining a clear BCH knowledge base
-2. collecting common questions and objections
-3. adding support material for users and merchants
-4. creating strong example replies
-5. writing reusable prompts for agents
-6. supporting OpenClaw and similar agent workflows
+1. building a strong BCH knowledge base
+2. collecting common questions, objections, and support material
+3. expanding merchant and adoption guidance
+4. improving prompts, routing, datasets, and evaluations
+5. supporting OpenClaw and similar runtime workflows
+6. making behavior easier to test and iterate safely
 
 ## Donations
 
