@@ -2,6 +2,8 @@
 
 **Open-source toolkit and knowledge base for AI agents that explain, promote, defend, and support Bitcoin Cash**
 
+**BCH Defender is an open-source project of [Bitcoin Cash Argentina](https://bitcoincashargentina.com/).**
+
 BCH Defender is a free and open-source toolkit and knowledge base for building AI agents that understand, explain, promote, defend, and support Bitcoin Cash across social media, support channels, merchant environments, forums, chats, and online communities.
 
 The goal of this repository is to serve as a shared foundation for BCH-focused agents, bots, assistants, and automated workflows, including setups built with tools like OpenClaw and similar systems.
