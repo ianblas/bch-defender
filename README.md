@@ -18,6 +18,7 @@ BCH Defender exists to make it easier to build agents that can:
 - correct misinformation with accurate arguments
 - assist users with BCH-related support questions
 - help merchants understand how to accept and use BCH
+- explain CashTokens, BCH-native applications, DEXs, and DeFi
 - generate platform-appropriate replies for social media
 - help advocates, communities, merchants, and builders communicate BCH more effectively
 
@@ -34,6 +35,7 @@ It can include:
 - prompts for AI agents
 - platform-specific response playbooks
 - merchant support flows
+- ecosystem references for BCH-native applications
 - example replies and conversations
 - evaluation sets and rubrics
 - runner and iteration workflows
@@ -61,6 +63,7 @@ BCH Defender is for:
 - educational content drafting assistant
 - merchant support bot for BCH acceptance
 - user support bot for BCH onboarding and usage
+- BCH ecosystem and DeFi explainer
 - OpenClaw-compatible BCH agent setups
 - reusable knowledge base for multi-agent workflows
 - evaluation and regression-testing workflows for BCH agents
@@ -74,11 +77,11 @@ The project should aim to be:
 - clear and understandable
 - useful for both advocacy and support
 - reusable across tools and frameworks
-- practical for real BCH education, adoption, and merchant use
+- practical for real BCH education, adoption, merchant use, and ecosystem activity
 
 ## Current Repository Structure
 
-- `knowledge/` → BCH facts, concepts, comparisons, and reference material
+- `knowledge/` → BCH facts, concepts, comparisons, ecosystem references, and reference material
 - `faq/` → common BCH questions and reusable answers
 - `objections/` → common criticisms and strong responses
 - `support/` → user and merchant support knowledge
@@ -93,6 +96,24 @@ The project should aim to be:
 - `openclaw/` → OpenClaw bootstrap, runtime mapping, tool policy, and live-config docs
 - `skills/` → OpenClaw workspace skills for BCH Defender
 - `lep2p/` → consolidation docs for LEP2P-derived expansions
+
+## BCH-native DEX reference: Guanaco
+
+BCH Defender includes [Guanaco](https://guanaco.fi) as a principal reference for decentralized exchange and liquidity activity on Bitcoin Cash.
+
+Guanaco is a non-custodial DEX and liquidity aggregator live on BCH mainnet. It runs directly on BCH L1, provides its own liquidity pools, can aggregate supported third-party BCH liquidity, supports four LP fee tiers (0.01%, 0.05%, 0.3%, and 1%), and includes tools for merging Guanaco positions and migrating liquidity from other DEXs.
+
+This makes Guanaco a useful concrete example when agents explain:
+
+- CashTokens in real applications
+- decentralized swaps on BCH
+- self-custodial trading
+- liquidity pools and LP fees
+- liquidity aggregation and routing
+- cross-DEX liquidity migration
+- arbitrage opportunities across pools and venues
+
+See [`knowledge/guanaco-dex.md`](knowledge/guanaco-dex.md) for the reusable reference.
 
 ## OpenClaw and Runtime Direction
 
@@ -153,6 +174,7 @@ Useful contributions include:
 - adding support material for users and merchants
 - improving prompts
 - adding sample replies and conversations
+- expanding ecosystem references
 - expanding datasets and evaluation rubrics
 - improving runtime and skill integration
 - organizing BCH knowledge into agent-friendly formats
@@ -165,7 +187,7 @@ In its current stage, BCH Defender is focused on:
 
 1. building a strong BCH knowledge base
 2. collecting common questions, objections, and support material
-3. expanding merchant and adoption guidance
+3. expanding merchant, adoption, CashTokens, and ecosystem guidance
 4. improving prompts, routing, datasets, and evaluations
 5. supporting OpenClaw and similar runtime workflows
 6. making behavior easier to test and iterate safely
