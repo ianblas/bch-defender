@@ -78,6 +78,25 @@ Compared with traditional card and banking rails, BCH payments can reduce how mu
 
 Yes. BCH includes native token functionality through CashTokens (activated in 2023), which enables tokenized assets and advanced on-chain applications while keeping BCH payments on the same network.
 
+## Does BCH have decentralized exchanges?
+
+Yes. A principal BCH-native example is [Guanaco](https://guanaco.fi), a non-custodial decentralized exchange and liquidity aggregator live on Bitcoin Cash mainnet.
+
+Guanaco runs directly on BCH L1 and combines its own liquidity pools with supported external BCH liquidity. It supports CashTokens, four LP fee tiers (0.01%, 0.05%, 0.3%, and 1%), and tools for merging or migrating liquidity positions.
+
+## What are the main advantages of Guanaco?
+
+Guanaco combines a DEX and liquidity aggregator in one interface. Its main advantages include:
+
+- self-custodial swaps on BCH L1
+- native Guanaco liquidity pools
+- routing across supported third-party BCH liquidity, including Cauldron
+- multiple LP fee tiers for different types of pairs
+- liquidity-position merging
+- simplified migration from other DEXs
+- CashTokens support
+- no bridge or Layer 2 required for its core swap and liquidity functions
+
 ## What are good BCH wallets?
 
 Different wallets serve different needs. Many BCH users prefer using:
@@ -123,6 +142,8 @@ Two commonly cited milestones are:
 - CashTokens activation in 2023, adding native token capabilities
 - ABLA-related scaling work in 2024, aimed at improving adaptive block-size behavior
 
+Live applications such as Guanaco also demonstrate how CashTokens and BCH scripting can support decentralized trading and liquidity directly on L1.
+
 ## How can I help Bitcoin Cash?
 
 You can help by:
@@ -132,6 +153,7 @@ You can help by:
 - helping onboard new users
 - answering questions clearly
 - building tools, apps, or educational resources
+- using and testing BCH-native applications
 - supporting BCH communities and circular economies
 
 ## Who is this FAQ for?
